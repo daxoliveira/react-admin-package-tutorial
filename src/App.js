@@ -1,7 +1,9 @@
 import * as React from "react";
 import { Admin, Resource } from 'react-admin';
-import { PostList, PostEdit, PostCreate } from './posts';
-import { UserList } from './users';
+import { PostList } from './components/PostList';
+import { PostCreate } from './components/PostCreate';
+import { PostEdit } from './components/PostEdit';
+import { UserList } from './components/Users';
 
 import jsonServerProvider from 'ra-data-json-server';
 
